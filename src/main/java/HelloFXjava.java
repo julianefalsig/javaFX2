@@ -15,7 +15,7 @@ public class HelloFXjava extends Application
     @Override
     public void start(Stage stage) throws Exception {
         String version = System.getProperty("javafx.version");
-        Label label = new Label("hello from JavaFX_ commit nr.2 : " + version);
+        Label label = new Label("hello from JavaFX_ commit nr.2 Ulrikke : " + version);
         StackPane stackPane = new StackPane(label);
         //Scene scene = new Scene(stackPane, 640,480);
         //stage.setScene(scene);
